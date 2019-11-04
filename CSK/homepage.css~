@@ -1,0 +1,112 @@
+div.main{
+		margin:0px;
+		border:10px ;
+		padding: 30px;
+		margin-left: -10px;	
+		margin-top: -15px;	
+		height: 1150px;
+		border-left: 0px solid 	#1D418C;
+		background-image: url('ADP/Asset 4.png');		
+		font-family: shanky;
+		color: #1D418C;
+		}
+				
+		div.midcenter{
+		display: block;
+	
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 90px;
+		width: 50%;
+		}
+	
+	img:hover{
+	box-shadow: 0 12px 16px 0 #F15C19,0 17px 50px 0 #F15C19;}
+	
+div.topcenter{
+		display: block;
+	
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		width: 50%;
+		}
+	
+	div.center{
+	padding: 12px;
+		display: block;
+		margin-left: 250px;
+		margin-right: auto;
+      margin-top: auto;
+    	width: 50%;
+		}
+
+#navbar {
+  overflow: hidden;
+ margin-left: 10px;
+  background-image: url('ADP/bluebg2.jpg'); background-size: 1240px 120px; ;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #00AEDF ;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #F9CD05  ;
+  color: white;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .main{
+  padding-top: 60px;
+}
+
+    
+    
+    div.footer{
+  width: 1350px;
+  height: 100px;
+  font-family: shanky;
+  color: #9fb1ce;
+}
+.followimg{
+  width: 20px;
+  height: 20px;
+}
+.followlink{
+  text-decoration: none;
+}
+#footercontent{
+  position: absolute;
+  right: 10px;
+}
+#returntop{
+  position: absolute;
+  right: 1060px;
+  top: auto;
+  color: greenyellow;
+}
+
+figure{
+	display: inline-block;}
+	
+td{
+	padding:20px 0px 20px 20px;
+}

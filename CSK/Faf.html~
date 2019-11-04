@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSK</title>
+<link rel="stylesheet" type="text/css" href="homepage.css" />
+
+</head>
+
+<body style="background-image: url('ADP/bluebg4.jpg');background-size: 1260px 1000px;">
+<div class="center" id="top">				<!--header-->
+<img src="ADP/30052140_1685890158162935_2729464362862323141_o.jpg" alt="" height="150px" width="750px">
+
+ </div>
+ 
+ 
+<div id="navbar">
+  <a href="cskbgimg.html" target="_blank" style="font-family: shanky;">Home</a>
+ <a  href="den.html" target="_blank" style="font-family: shanky;">Our Den</a>
+  <a class="active" href="squad.html" target="_blank" style="font-family: shanky;">Squad</a>
+  <a href="create.html" target="_blank" style="font-family: shanky;">Create a Super King</a>
+  
+</div>
+
+
+<div class="main" >
+
+<div class="topcenter">
+<center>
+
+<img src="ADP/14.png" alt="" height="400px" with="300px">
+</center>
+</div>	
+		<div>
+		
+		<pre>
+				<span style="color: #F15C19;font-family: shanky;font-size: 45px; text-align: center;">
+							  Faf du Plessis</span>
+				<span style="color: white;font-family: cursive;">
+				<center>
+Role	: All-rounder
+Batting Style	: Right-handed
+Bowling Style	: Right-arm leg spin
+Nationality	: South African
+DOB	: 13 July 1984
+IPL Debut	: 2012
+
+Faf Du Plessis will also once again don the yellow of Chennai Super Kings colours after they used the Right to Match
+card for him. KXIP bought him for Rs 1.6 Cr but CSK trumped them by using their RTM card and it is a bargain.While
+the classy and composed batsman did not get many outings in the RPS squad where he was picked up in the IPL player 
+draft, du Plessis has had consistent performances for CSK wherein he went on to have a very successful debut season
+scoring 398 runs.He impressed with a half-century on his ODI debut, against India and soon enough, found himself in 
+South Africa’s squad for the 2011 World Cup. With a century on Test debut against Australia, du Plessis has shed the
+tag of a limited-overs specialist. Although batting remains his area of prowess, du Plessis can come up with a few
+handy leg-spinners when required. To boot that, he is a livewire in the field, hence, making him a perfect T20 
+package for any captain.
+
+</center>
+</span>
+				
+				
+			
+		</pre>
+		</div>
+		
+		
+</div>
+
+
+<div class="footer">
+      <div id="footercontent">
+      <span style="text-decoration:underline;" >Follow us at:</span><br>
+      <pre><a href="https://www.instagram.com/chennaiipl/?hl=en" class="followlink"><img src="ADP/ig.png" alt="InstaGram" class="followimg">   <a href="https://www.youtube.com/channel/UC2J_VKrAzOEJuQvFFtj3KUw" class="followlink"><img src="ADP/youtube.jpg" alt="YouTube" class="followimg">   <a href="https://www.facebook.com/TheChennaiSuperKings/" class="followlink"><img src="ADP/fb.png" alt="Facebook" class="followimg">  </pre>
+      
+      <div id="returntop">
+          <a href="#top" style="text-decoration:none; color: grey;"> <pre style="font-family: shanky;color: white;"> Return to top of the page. </pre></a>
+      </div>
+    </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

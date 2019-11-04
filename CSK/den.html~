@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSK</title>
+<link rel="stylesheet" type="text/css" href="homepage.css" />
+
+</head>
+
+<body style="background-image: url('ADP/bluebg4.jpg');background-size: 1260px 1000px;">
+<div class="center" id="top">				<!--header-->
+<img src="ADP/30052140_1685890158162935_2729464362862323141_o.jpg" alt="" height="150px" width="750px">
+
+ </div>
+ 
+ 
+<div id="navbar">
+  <a href="cskbgimg.html" target="_blank" style="font-family: shanky;">Home</a>
+ <a class="active" href="den.html" target="_blank" style="font-family: shanky;">Our Den</a>
+  <a href="squad.html" target="_blank" style="font-family: shanky;">Squad</a>
+  <a href="create.html" target="_blank" style="font-family: shanky;">Create a Super King</a>
+  
+</div>
+
+
+<div class="main" >
+
+<div class="topcenter">
+
+<img src="ADP/stadium1.jpg" alt="" height="580px" with="580px">
+</div>	
+		<div>
+		<div style="position: absolute; right: -200px; opacity: 0.8" ><img src="ADP/den1.jpg" alt="" height="50%" width="50%" ></div>
+		<pre>
+				<span style="color: #F15C19;font-family: cursive;">1952</span>
+				<span style="color: white;font-family: cursive;">India's First Test Win</span>
+				
+				
+				<span style="color: #F15C19;font-family: cursive;">1986</span>
+				<span style="color: white;font-family: cursive;">Tied Test</span>
+				
+				<span style="color: #F15C19;font-family: cursive;">319</span>
+				<span style="color: white;font-family: cursive;">V Sehwag</span>
+			
+				<span style="color: #F15C19;font-family: cursive;">FIRST</span>
+				<span style="color: white;font-family: cursive;">Ranji Trophy</span>
+
+				<span style="color: #F15C19;font-family: cursive;">FIRST</span>
+				<span style="color: white;font-family: cursive;">Ranji Trophy Match</span>
+
+				<span style="color: #F15C19;font-family: cursive;">194</span>
+				<span style="color: white;font-family: cursive;">Saeed Anwar</span>
+
+				<span style="color: #F15C19;font-family: cursive;">224</span>
+				<span style="color: white;font-family: cursive;">M S Dhoni</span>
+
+				<span style="color: #F15C19; font-family: cursive;" >CSK</span>
+				<span style="color: white;font-family: cursive;">2011 Champions</span>
+		</pre>
+		</div>
+		
+		
+</div>
+
+
+<div class="footer">
+      <div id="footercontent">
+      <span style="text-decoration:underline;" >Follow us at:</span><br>
+      <pre><a href="https://www.instagram.com/chennaiipl/?hl=en" class="followlink"><img src="ADP/ig.png" alt="InstaGram" class="followimg">   <a href="https://www.youtube.com/channel/UC2J_VKrAzOEJuQvFFtj3KUw" class="followlink"><img src="ADP/youtube.jpg" alt="YouTube" class="followimg">   <a href="https://www.facebook.com/TheChennaiSuperKings/" class="followlink"><img src="ADP/fb.png" alt="Facebook" class="followimg">  </pre>
+      
+      <div id="returntop">
+          <a href="#top" style="text-decoration:none; color: grey;"> <pre style="font-family: shanky;color: white;"> Return to top of the page. </pre></a>
+      </div>
+    </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

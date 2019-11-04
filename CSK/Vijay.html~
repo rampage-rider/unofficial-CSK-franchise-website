@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSK</title>
+<link rel="stylesheet" type="text/css" href="homepage.css" />
+
+</head>
+
+<body style="background-image: url('ADP/bluebg4.jpg');background-size: 1260px 1000px;">
+<div class="center" id="top">				<!--header-->
+<img src="ADP/30052140_1685890158162935_2729464362862323141_o.jpg" alt="" height="150px" width="750px">
+
+ </div>
+ 
+ 
+<div id="navbar">
+  <a href="cskbgimg.html" target="_blank" style="font-family: shanky;">Home</a>
+ <a  href="den.html" target="_blank" style="font-family: shanky;">Our Den</a>
+  <a class="active" href="squad.html" target="_blank" style="font-family: shanky;">Squad</a>
+  <a href="create.html" target="_blank" style="font-family: shanky;">Create a Super King</a>
+  
+</div>
+
+
+<div class="main" >
+
+<div class="topcenter">
+<center>
+
+<img src="ADP/10.png" alt="" height="400px" with="300px">
+</center>
+</div>	
+		<div>
+		
+		<pre>
+				<span style="color: #F15C19;font-family: shanky;font-size: 45px; text-align: center;">
+								Murali Vijay</span>
+				<span style="color: white;font-family: cursive;">
+				<center>
+				
+Role	Batsman
+Batting Style	Left-handed
+Bowling Style	Right-arm off-spin
+Nationality	Indian
+DOB	01 April 1984
+IPL Debut	2009
+
+Murali Vijay is all set to return to the IPL fold after the 2016 edition. Bought by the Chennai Super Kings at the IPL 
+auction, Vijay will once again try and get into the thick of things for CSK.Vijay, who had been a key player for the 
+Chennai Super Kings, was bought by the Delhi Daredevils in the IPL Player Auction 2014 and was inducted into the 
+King XI Punjab squad ahead of the 2015 edition. The top-order batsman redefined himself during IPL 2010 with some 
+impressive displays of power-hitting for CSK. Known for his technique and poise at the crease, Vijay was drafted 
+into the Indian Test team in 2008 against a daunting Australian side. A clean hitter of the ball, the India opener 
+possesses the gift of timing, which was well demonstrated during his record-breaking 127-run knock against 
+Rajasthan Royals in IPL 2010.He ended up scoring 458 runs in the tournament. The stylish batsman has over 2000 runs 
+in the VIVO IPL and will be looking forward to making an impact in the upcoming edition of the tournament.
+
+
+
+
+
+
+
+</center>
+</span>
+				
+				
+			
+		</pre>
+		</div>
+		
+		
+</div>
+
+
+<div class="footer">
+      <div id="footercontent">
+      <span style="text-decoration:underline;" >Follow us at:</span><br>
+      <pre><a href="https://www.instagram.com/chennaiipl/?hl=en" class="followlink"><img src="ADP/ig.png" alt="InstaGram" class="followimg">   <a href="https://www.youtube.com/channel/UC2J_VKrAzOEJuQvFFtj3KUw" class="followlink"><img src="ADP/youtube.jpg" alt="YouTube" class="followimg">   <a href="https://www.facebook.com/TheChennaiSuperKings/" class="followlink"><img src="ADP/fb.png" alt="Facebook" class="followimg">  </pre>
+      
+      <div id="returntop">
+          <a href="#top" style="text-decoration:none; color: grey;"> <pre style="font-family: shanky;color: white;"> Return to top of the page. </pre></a>
+      </div>
+    </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

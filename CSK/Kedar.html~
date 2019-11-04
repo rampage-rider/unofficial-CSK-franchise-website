@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSK</title>
+<link rel="stylesheet" type="text/css" href="homepage.css" />
+
+</head>
+
+<body style="background-image: url('ADP/bluebg4.jpg');background-size: 1260px 1000px;">
+<div class="center" id="top">				<!--header-->
+<img src="ADP/30052140_1685890158162935_2729464362862323141_o.jpg" alt="" height="150px" width="750px">
+
+ </div>
+ 
+ 
+<div id="navbar">
+  <a href="cskbgimg.html" target="_blank" style="font-family: shanky;">Home</a>
+ <a  href="den.html" target="_blank" style="font-family: shanky;">Our Den</a>
+  <a class="active" href="squad.html" target="_blank" style="font-family: shanky;">Squad</a>
+  <a href="create.html" target="_blank" style="font-family: shanky;">Create a Super King</a>
+  
+</div>
+
+
+<div class="main" >
+
+<div class="topcenter">
+<center>
+
+<img src="ADP/11.png" alt="" height="400px" with="300px">
+</center>
+</div>	
+		<div>
+		
+		<pre>
+				<span style="color: #F15C19;font-family: shanky;font-size: 45px; text-align: center;">
+								Kedar Jadhav</span>
+				<span style="color: white;font-family: cursive;">
+				<center>
+				
+Role	Batsman
+Batting Style	Right-handed
+Bowling Style	Right-arm off-spin
+Nationality	Indian
+DOB	26 March 1985
+IPL Debut	2010
+
+An attacking middle-order batsman Kedar Jadhav, after representing Delhi Daredevils and RCB, will now represent CSK 
+in the eleventh edition of the cash-rich league.The Maharashtra batsman was bought by CSK for whopping INR 7.8 cr. 
+Jadhav, who made his way back into the Delhi Daredevils in 2013 after spending a couple of years away, was signed up 
+by the franchise yet again in the IPL 2014 auction. A powerful batsman, Kedar was the leading run-getter in the 
+Ranji Trophy 2013-14 season and played a crucial role in taking his team to the tournament final. The aggressive 
+middle-order batsman scored his maiden triple ton in the Ranji Trophy 2012-13 season, against Uttar Pradesh and was 
+the second highest run-getter for his team in the season.
+
+
+
+
+
+
+</center>
+</span>
+				
+				
+			
+		</pre>
+		</div>
+		
+		
+</div>
+
+
+<div class="footer">
+      <div id="footercontent">
+      <span style="text-decoration:underline;" >Follow us at:</span><br>
+      <pre><a href="https://www.instagram.com/chennaiipl/?hl=en" class="followlink"><img src="ADP/ig.png" alt="InstaGram" class="followimg">   <a href="https://www.youtube.com/channel/UC2J_VKrAzOEJuQvFFtj3KUw" class="followlink"><img src="ADP/youtube.jpg" alt="YouTube" class="followimg">   <a href="https://www.facebook.com/TheChennaiSuperKings/" class="followlink"><img src="ADP/fb.png" alt="Facebook" class="followimg">  </pre>
+      
+      <div id="returntop">
+          <a href="#top" style="text-decoration:none; color: grey;"> <pre style="font-family: shanky;color: white;"> Return to top of the page. </pre></a>
+      </div>
+    </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
